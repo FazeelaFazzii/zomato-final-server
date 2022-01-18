@@ -82,7 +82,7 @@ Router.post("/signin", async (req,res) =>{
     passport.authenticate("google", { failureRedirect: "/" }),
     (req, res) => {
       return res.redirect(
-        `http://localhost:3000/google/${req.session.passport.user.token}`
+        `https://61e6f24bbf34475863ce0496--gallant-edison-5918f8.netlify.app/google/${req.session.passport.user.token}`
       );
     }
   );
