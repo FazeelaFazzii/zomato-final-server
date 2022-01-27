@@ -9,7 +9,7 @@ Router.post("/", async (req, res) => {
        // const { from, to, subject, text } = req.body.mailData;
         const sendMail = initializeMailgun();
         const data = {
-            
+            from:"zahrabathoolbinthali@gmail.com",
             to:"faseelavs.faz@gmail.com",
             subject:"hello",
             text:"mailgun testing"
