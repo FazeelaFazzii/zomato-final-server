@@ -1,4 +1,4 @@
-import mailgun from "mailgun-js";
+import mailgun from "mailgun";
 import dotenv from "dotenv";
 dotenv.config({
     path: require("path").resolve(__dirname, "../.env"),
