@@ -26,6 +26,7 @@ import Image from "./API/Image";
 import Order from "./API/Orders";
 import Review from "./API/Reviews";
 import User from "./API/User";
+import Mail from "./API/Mail";
 
 
 
@@ -51,6 +52,7 @@ zomato.use("/image", Image);
 zomato.use("/order", Order);
 zomato.use("/review", Review);
 zomato.use("/user", User);
+zomato.use("/mail", Mail);
 
 
 const PORT = process.env.PORT || 4002;
